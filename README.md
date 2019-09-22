@@ -1,10 +1,8 @@
-# alphaquant
-
 ======================================================================
 
 说明：
 
-本SDK仅供参考学习，方便自动化下单，使用请遵守相关国家法规，不配资，不操纵股价。
+本SDK仅供参考学习，方便自动化下单
 
 ======================================================================
 
@@ -24,23 +22,7 @@ Linux或Mac系统命令行运行 wine stock_live_trade.exe，Linux和Mac系统�
 
 解压目录下的example目录中是例子代码，推荐使用pycharm编辑调试代码
 
-API文档: http://www.alpha-qt.com/?page_id=175
- 
-QQ交流群：575874566
-
-stock_live_trade.exe编译说明：
 vs2015及以上，需要thrift，libevent，boost，zlib，openssl
 
 =============================================================================
 
-模拟盘使用说明
-
-1 模拟盘不需要开启stock_live_trade.exe进程
-
-2 有两种方法可使用python接口
-
-  ● 使用实盘api，调用任何其他API先调用：SetServer("sim.bbbstock.com",  62228)
-  
-  ● 下载bbbstock_sim_trade.py在代码中 import bbbstock_sim_trade
-  
-3 请到http://www.bbbstock.com 注册账号，该合作伙伴目前还在起步阶段，有使用问题或建议请在qq群反馈，我们会转达。
